@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        background-color: rgb(255, 255, 255);
+        background-image: url('../pages/backroundHitamputih.jpg');
+}
+.fa-solid{
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    height: 40px;
+}
+.text1{
+    font-size: 50px;
+    text-align: center;
+}
+.text2{
+    font-size: 15px;
+text-align: center;
+}
+.carousel{
+    width: 500px;
+    margin-left: auto;
+}
+.img-categori{
+    width: 60px;
+}
+.img-categori:hover{
+    transform: scale(1.2);
+}
+.row-container{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.card:hover{
+    border: 5px solid rgba(0, 0, 0, 0.236);
+}
+.fa-github{
+    color: white;
+}
+.row-product{
+    background-color: rgba(178, 178, 178, 0.284);
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+.fa-trash{
+    color: rgba(0, 0, 0, 0.847);
+}
+.fa-cart-shopping{
+    color: rgba(0, 0, 0, 0.847);
+    width: 1px;
+}
+.fa-image{
+    color: rgba(0, 0, 0, 0.847);
+}
+.fa-rupiah-sign{
+    color: rgba(0, 0, 0, 0.847);
+}
+.fa-list{
+    color: rgba(0, 0, 0, 0.847);
+}
+.img-keranjang{
+width: 60px;
+}
+.cartdisplay{
+    display: grid;
+height: auto;
+text-align: center;
+}
+.cartdisplay img{
+    width: 30%;
+}
+
+.card-title{
+    font-size: 15px;
+}
+.fa-trash{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    padding: 0%;
+}
+.dropdown-menu{
+    backdrop-filter: blur(8px); /* Efek blur dengan radius 8px */
+    background-color: rgba(255, 255, 255, 0); /* Warna latar belakang dengan opacity */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dropdown-item{
+background-color: rgba(0, 0, 0, 0.117);
+}
+.nav-pills{
+    background-color: rgba(255, 255, 255, 0.143);
+}

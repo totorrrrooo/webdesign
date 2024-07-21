@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        background-color: rgb(255, 255, 255);
+}
+.fa-solid{
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    height: 40px;
+}
+.text1{
+    font-size: 50px;
+    text-align: center;
+}
+.text2{
+    font-size: 15px;
+text-align: center;
+}
+.carousel{
+    width: 500px;
+    margin-left: auto;
+}
+.img-categori{
+    width: 60px;
+}
+.img-categori:hover{
+    transform: scale(1.2);
+}
+.row-container{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.card:hover{
+    border: 5px solid rgba(0, 0, 0, 0.236);
+}
+.fa-github{
+    color: white;
+}
+.row-product{
+    background-color: rgba(178, 178, 178, 0.284);
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+.garis-product{
+    margin-top: 10px;
+    margin-bottom: 25px; 
+}
+.button{
+    margin-left: 10px;
+    height: 50px;
+}
+.h4{
+    margin-top: 40px;
+}
+.buttoncheckout{
+    white-space: nowrap;
+}
+.riview{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+.productdeksripsi{
+    color: black;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.fa-cart-plus{
+    text-align: center;
+    margin-top: 3px;
+}
